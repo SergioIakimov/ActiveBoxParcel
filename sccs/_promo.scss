@@ -1,0 +1,52 @@
+.promo {
+    min-height: 574px;
+    background: 
+    //   linear-gradient(
+    //       to right,
+    //       rgba(0, 0, 0, 0.5),
+    //       rgba(0, 0, 0, 0.5)
+    //   ),
+      url("../img/bg.png") center top;
+    background-size: cover;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0.7rem;
+        &__title {
+            .title {
+                color: #FFFFFF;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            padding-bottom: 1.8rem;
+        }
+        &__descr {
+            .descr {
+                text-align: center;
+                font-size: 1rem;
+                color: #FFFFFF;
+            }
+            padding-bottom: 3rem;
+        }
+        &__button {
+            padding: 1rem 2.7rem;;
+            background-color: #FF4343;
+            .title {
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: #FFFFFF;
+            }
+            &:hover {
+                cursor: pointer;
+                background: #E71414;
+                @include trans;
+            }
+            &:active {
+                background: #FF4343;
+                box-shadow: 4px 4px 30px #FF4343;
+                @include trans;
+            }
+        }
+    }
+}
