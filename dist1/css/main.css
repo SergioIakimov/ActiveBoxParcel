@@ -70,14 +70,15 @@ h1 {
   list-style-type: none;
   padding-right: 2rem;
   transform: translateY(-100%);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__nav__menu.open {
   visibility: visible;
   transform: translateY(0);
+  width: 98vw;
 }
 .header__nav__menu__items {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__nav__menu__items.open {
   transform: translateX(0);
@@ -90,16 +91,16 @@ h1 {
   text-transform: uppercase;
   padding: 5rem 2rem 0rem 2rem;
   font-weight: 300;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__nav__menu__items__link:hover {
   border-bottom: 3px solid #BABBC5;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__nav__menu__items__link:active {
   color: #E71414;
   border-bottom: 3px solid #E71414;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__btn {
   position: absolute;
@@ -109,7 +110,7 @@ h1 {
   height: 1rem;
   width: 1.5rem;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__btn__burger {
   position: absolute;
@@ -118,7 +119,7 @@ h1 {
   width: 1.5rem;
   height: 0.2rem;
   background-color: white;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__btn__burger::before {
   content: "";
@@ -127,7 +128,7 @@ h1 {
   width: 1.5rem;
   height: 0.2rem;
   background-color: white;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__btn__burger::after {
   content: "";
@@ -136,7 +137,7 @@ h1 {
   width: 1.5rem;
   height: 0.2rem;
   background-color: white;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .header__btn__burger.open {
   transform: rotate(720deg);
@@ -209,12 +210,12 @@ h1 {
 .promo__content__button:hover {
   cursor: pointer;
   background: #E71414;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .promo__content__button:active {
   background: #FF4343;
   box-shadow: 4px 4px 30px #FF4343;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .icons {
@@ -267,7 +268,7 @@ h1 {
 .gallery__img {
   width: 50%;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .gallery__img img {
   width: 100%;
@@ -504,12 +505,12 @@ h1 {
 .ready__content__button:hover {
   cursor: pointer;
   background: #E71414;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .ready__content__button:active {
   background: #FF4343;
   box-shadow: 4px 4px 30px #FF4343;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .info {
@@ -617,11 +618,11 @@ h1 {
     background: transparent;
     padding-right: 0rem;
     transform: translateY(0);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .header__nav__menu__items {
     transform: translateX(0);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .header__nav__menu__items__link {
     font-size: 0.8rem;
@@ -630,7 +631,7 @@ h1 {
     display: inline-block;
     text-decoration: none;
     font-weight: 300;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .header__btn {
     display: none;
