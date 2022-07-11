@@ -16,7 +16,6 @@
         width: 100%;
         display: block;
         margin: 0 auto;
-        
         }
         & .info {
 		position: relative;
@@ -41,19 +40,13 @@
         &:hover {
             transform: translateY(0px);
             cursor: pointer;
-
-            &:before {
-                opacity: 1;
-
-            }
             .info {
                 opacity: 1;
                 transform: translateY(-6rem);
-                // height: auto;
-
             }
             &:before {
                 content: "";
+                opacity: 1;
                 position: absolute;
                 top: 0;
                 left: 0;
