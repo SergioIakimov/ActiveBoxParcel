@@ -18,10 +18,10 @@
         position: absolute;
         opacity: 0.99;
         visibility: hidden;
-        &.open {
+        // &.open {
             
-            visibility: visible;
-        }
+        //     visibility: visible;
+        // }
         &__menu {
             visibility: hidden;///try
             list-style: none;

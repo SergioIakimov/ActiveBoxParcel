@@ -54,9 +54,6 @@ h1 {
   opacity: 0.99;
   visibility: hidden;
 }
-.header__nav.open {
-  visibility: visible;
-}
 .header__nav__menu {
   visibility: hidden;
   list-style: none;
@@ -298,15 +295,13 @@ h1 {
   transform: translateY(0px);
   cursor: pointer;
 }
-.gallery__img:hover:before {
-  opacity: 1;
-}
 .gallery__img:hover .info {
   opacity: 1;
   transform: translateY(-6rem);
 }
 .gallery__img:hover:before {
   content: "";
+  opacity: 1;
   position: absolute;
   top: 0;
   left: 0;
